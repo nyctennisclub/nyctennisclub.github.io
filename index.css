@@ -1,0 +1,75 @@
+#parent {
+    margin: auto;
+    width: 80%;
+    min-height: 600px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#header {
+    text-align: right;
+    position: relative;
+    right: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+#links {
+	list-style-type:none;
+	list-style-image:none;
+    text-align: right;
+    position: relative;
+    right: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+#title {
+	list-style-type:none;
+	list-style-image:none;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+#archived {
+	list-style-type:none;
+	list-style-image:none;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+.labelClass, p {
+    font-family: 'Computer Modern Serif';
+    color: black;
+}
+
+.emphasized {
+    font-style: italic;
+}
+
+.labelClass, a {
+    font-family: 'Computer Modern Serif';
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
