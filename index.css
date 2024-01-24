@@ -1,0 +1,113 @@
+body {
+    background-color: #F2F2F2;
+}
+
+#parent {
+    margin: auto;
+    width: 80%;
+    min-height: 600px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#header {
+    text-align: right;
+    position: relative;
+    right: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+#links {
+	list-style-type:none;
+	list-style-image:none;
+    text-align: right;
+    position: relative;
+    right: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+#article {
+	list-style-type:none;
+	list-style-image:none;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+#leftpoem {
+    text-align: left;
+    position: relative;
+    left: 100px;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+#rightpoem {
+    text-align: right;
+    position: relative;
+    right: 100px;
+    font-size: 15px;
+    font-weight: normal;
+    color: black;
+}
+
+#copyright {
+    text-align: right;
+    position: relative;
+    right: 100px;
+    font-family: 'Computer Modern Serif';
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.column {
+    float: left;
+    width: 35%;
+    padding: 5%;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.center {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.labelClass, p {
+    font-family: 'Computer Modern Serif';
+    color: black;
+}
+
+.emphasized {
+    font-style: italic;
+}
+
+.labelClass, a {
+    font-family: 'Computer Modern Serif';
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
