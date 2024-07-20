@@ -1,12 +1,12 @@
 body {
     background-color: #F2F2F2;
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
 }
 
 #parent {
     margin: auto;
-    width: 80%;
+    width: 90%;
     min-height: 600px;
-    border: 1px solid black;
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -14,87 +14,103 @@ body {
 }
 
 #header {
-    text-align: right;
     position: relative;
-    right: 100px;
+    left: "20%";
     font-family: 'Computer Modern Serif';
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 15px;
     color: black;
 }
 
 #links {
 	list-style-type:none;
 	list-style-image:none;
-    text-align: right;
     position: relative;
-    right: 100px;
     font-family: 'Computer Modern Serif';
     font-size: 15px;
-    font-weight: normal;
     color: black;
 }
 
-#article {
-	list-style-type:none;
-	list-style-image:none;
-    text-align: left;
-    position: relative;
-    left: 100px;
-    font-family: 'Computer Modern Serif';
-    font-size: 15px;
-    font-weight: normal;
-    color: black;
+.placeholder {
+    clear:both;
+    padding:20px;
+    margin:0;
+    font-size:0;
+    line-height:0;
+    height:0;
 }
 
-#leftpoem {
-    text-align: left;
+.largeplaceholder {
+    clear:both;
+    padding:200px;
+    margin:0;
+    font-size:0;
+    line-height:0;
+    height:0;
+}
+
+.catalogue {
+    font-size:10px;
+    text-align: center;
+}
+
+#atelier {
     position: relative;
-    left: 100px;
+    font-size: 10px;
+    background-color: white;
+}
+
+#collection {
+    position: relative;
+    /* border: 1px solid black; */
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
+    font-size: 12px;
+    background-color: white;
+}
+
+.fiction {
+    position: relative;
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
     font-size: 15px;
-    font-weight: normal;
-    color: black;
+    background-color: white;
+}
+
+.poem {
+    position: relative;
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
+    font-size: 15px;
+    background-color: white;
 }
 
 #rightpoem {
     text-align: right;
     position: relative;
+    font-family: 'Computer Modern Serif', 'Times New Roman', 'Microsoft Yahei', 'STXihei';
     right: 100px;
     font-size: 15px;
-    font-weight: normal;
-    color: black;
 }
 
 #copyright {
-    text-align: right;
     position: relative;
-    right: 100px;
     font-family: 'Computer Modern Serif';
     font-size: 10px;
-    font-weight: normal;
 }
 
 .column {
     float: left;
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
     width: 35%;
     padding: 5%;
 }
   
 .row::after {
     content: "";
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
     clear: both;
     display: table;
   }
 
-.center {
-    width: 85%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .labelClass, p {
-    font-family: 'Computer Modern Serif';
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
     color: black;
 }
 
@@ -103,7 +119,7 @@ body {
 }
 
 .labelClass, a {
-    font-family: 'Computer Modern Serif';
+    font-family: 'Computer Modern Serif', 'Noto Serif SC';
     text-decoration: none;
     color: black;
 }
