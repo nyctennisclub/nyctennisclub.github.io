@@ -57,11 +57,11 @@ body {
     position: relative;
     font-size: 10px;
     background-color: white;
+    text-align: center;
 }
 
 #collection {
     position: relative;
-    /* border: 1px solid black; */
     font-family: 'Computer Modern Serif', 'Noto Serif SC';
     font-size: 12px;
     background-color: white;
